@@ -1,0 +1,32 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  a {
+    text-decoration: none;
+    color: #8d8a8a;
+
+    &:hover {
+      color: #8d8a8a;
+      font-weight: bold;
+      color: #3a7d51;
+      text-decoration: underline;
+    }
+
+    &.active {
+      color: #333;
+      font-weight: bold;
+
+    }
+
+
+  }
+}

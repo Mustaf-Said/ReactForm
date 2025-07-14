@@ -1,4 +1,4 @@
-interface Subject {
+export interface Subject {
   english: boolean;
   svesnka: boolean;
   Arabisk: boolean;
@@ -12,7 +12,8 @@ export interface UserData {
   gender: string;
   url: string;
   subject: Subject;
-  resum: string | null;
+  resum: string | undefined;
   selectOption: string;
   text: string;
+  /* submittedData: UserData | null; */
 }
